@@ -29,6 +29,7 @@ class AdminController: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         }
     }
     
+    
     @IBOutlet weak var pickerView: UIPickerView!
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -54,7 +55,6 @@ class AdminController: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         pickerView.dataSource = self
         
         lblInfo.isHidden = true
-        
     }
     
     @IBAction func btnBack(_ sender: UIButton) {
